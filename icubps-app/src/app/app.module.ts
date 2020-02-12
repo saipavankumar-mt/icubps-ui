@@ -6,9 +6,16 @@ import { AppComponent } from './app.component';
 
 import {MatIconModule} from '@angular/material/icon';
 
+import { NavMenuComponent } from './nav-menu/nav-menu.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+
+
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavMenuComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,
