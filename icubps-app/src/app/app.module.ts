@@ -5,9 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import {MatIconModule} from '@angular/material/icon';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { CarouselPauseComponent } from './utilities/carousel-pause/carousel-pause.component';
+import { HomeComponent } from './home/home.component';
 
 
 
@@ -15,15 +18,15 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
   declarations: [
     AppComponent,
     NavMenuComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    CarouselPauseComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatIconModule
-  ],
-  exports: [
-    MatIconModule
+    MatIconModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
