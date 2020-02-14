@@ -1,0 +1,55 @@
+<mat-tab-group mat-stretch-tabs class="example-stretched-tabs mat-elevation-z4">
+  <mat-tab label="Login">
+    <mat-card class="login-card">
+      <!-- <mat-card-header>
+        <mat-card-title>Login</mat-card-title>
+      </mat-card-header> -->
+      <mat-card-content>
+        <form class="login-form">
+          <mat-form-field class="example-full-width">
+            <input
+              matInput
+              placeholder="Username"
+              [(ngModel)]="username"
+              name="username"
+              required
+            />
+          </mat-form-field>
+          <mat-form-field class="example-full-width">
+            <input
+              matInput
+              placeholder="Password"
+              [(ngModel)]="password"
+              type="password"
+              name="password"
+              required
+            />
+          </mat-form-field>
+        </form>
+        <mat-spinner
+          [style.display]="showSpinner ? 'block' : 'none'"
+        ></mat-spinner>
+      </mat-card-content>
+      <mat-card-actions class="login-button">
+        <button mat-raised-button (click)="login()" color="primary">
+          LOGIN
+        </button>
+      </mat-card-actions>
+
+      <mat-card-header class="otp-header">
+        <mat-card-subtitle>- OR LOGIN WITH OTP -</mat-card-subtitle>
+      </mat-card-header>
+      <form class="otp-form">
+        <mat-form-field class="otp-number">
+          <mat-label>Mobile</mat-label>
+          <span matPrefix>+91 &nbsp;</span>
+          <input type="tel" matInput placeholder="888-888-8888" />
+        </mat-form-field>
+        <mat-card-actions class="otp-submit">
+          <button mat-raised-button color="primary">Submit</button>
+        </mat-card-actions>
+      </form>
+    </mat-card></mat-tab
+  >
+  <mat-tab label="Register"> Content 2 </mat-tab>
+</mat-tab-group>

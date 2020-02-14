@@ -1,0 +1,19 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+.login-button > button {
+  width: 100%;
+}
+
+.otp-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.otp-form {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
