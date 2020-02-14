@@ -19,6 +19,7 @@ import { FormsModule } from '@angular/forms';
 
 import { UserLoginComponent } from './user-login/user-login.component';
 import { CategoriesGridComponent } from './categories-grid/categories-grid.component';
+import { CustomTshirtsComponent } from './custom-tshirts/custom-tshirts.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { CategoriesGridComponent } from './categories-grid/categories-grid.compo
     CarouselPauseComponent,
     HomeComponent,
     UserLoginComponent,
-    CategoriesGridComponent
+    CategoriesGridComponent,
+    CustomTshirtsComponent
   ],
   imports: [
     BrowserModule,

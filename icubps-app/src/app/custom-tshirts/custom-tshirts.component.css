@@ -1,0 +1,8 @@
+h4{
+ text-decoration: underline; 
+}
+
+.headerText{
+    display: flex;
+    justify-content: center;
+}
