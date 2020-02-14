@@ -1,0 +1,56 @@
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+  color:white;
+}
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.box-color{
+  background-color: black;
+}
+
+nav .navbar-nav li a {
+  color: white !important;
+}
+
+
+@media (min-width: 576px){
+  .navbar-expand-sm {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-flow: column nowrap;
+    -webkit-box-pack: start;
+    justify-content: flex-start;    
+}
+}
+
+.container{
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.search{
+  display: flex;
+}
+
+.search-icon{
+  padding-top: 8px;
+}
+
+.search-icon-mat{
+  color: whitesmoke;
+}

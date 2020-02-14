@@ -1,0 +1,117 @@
+<header>
+  <nav
+    class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light box-shadow box-color mb-3"
+  >
+    <div class="container border-bottom ">
+      <a class="navbar-brand" [routerLink]="['/']">ICUBPS</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target=".navbar-collapse"
+        aria-label="Toggle navigation"
+        [attr.aria-expanded]="isExpanded"
+        (click)="toggle()"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse"
+        [ngClass]="{ show: isExpanded }"
+      >
+        <ul class="navbar-nav flex-grow">
+          <li
+            class="nav-item"
+            [routerLinkActive]="['link-active']"
+            [routerLinkActiveOptions]="{ exact: true }"
+          >
+            <a class="nav-link text-dark" [routerLink]="['/home']">Home</a>
+          </li>
+          <li class="nav-item" [routerLinkActive]="['link-active']">
+            <a class="nav-link text-dark" [routerLink]="['/contactUs']"
+              >Contact Us</a
+            >
+          </li>
+          <li
+            class="nav-item"
+            [routerLinkActive]="['link-active']"
+            (click)="openLoginPage()"
+          >
+            <a class="nav-link text-dark" [routerLink]=""
+              ><mat-icon>account_circle</mat-icon></a
+            >
+          </li>
+          <li class="nav-item" [routerLinkActive]="['link-active']">
+            <a class="nav-link text-dark" [routerLink]="['/']"
+              ><mat-icon>shopping_cart</mat-icon></a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <div
+        class="navbar-collapse collapse d-sm-inline-flex flex-sm-row"
+        [ngClass]="{ show: isExpanded }"
+      >
+        <ul class="navbar-nav flex-grow">
+          <li
+            class="nav-item border-right"
+            [routerLinkActive]="['link-active']"
+          >
+            <a class="nav-link text-dark" [routerLink]="['']">Custom Cases</a>
+          </li>
+          <li
+            class="nav-item border-right"
+            [routerLinkActive]="['link-active']"
+          >
+            <a class="nav-link text-dark" [routerLink]="['']">Photo Gifts</a>
+          </li>
+          <li
+            class="nav-item border-right"
+            [routerLinkActive]="['link-active']"
+          >
+            <a class="nav-link text-dark" [routerLink]="['']">Photo Mugs</a>
+          </li>
+          <li
+            class="nav-item border-right"
+            [routerLinkActive]="['link-active']"
+          >
+            <a class="nav-link text-dark" [routerLink]="['']">Custom Tshirts</a>
+          </li>
+          <li
+            class="nav-item border-right"
+            [routerLinkActive]="['link-active']"
+          >
+            <a class="nav-link text-dark" [routerLink]="['']">Frames</a>
+          </li>
+          <li class="nav-item" [routerLinkActive]="['link-active']">
+            <a class="nav-link text-dark" [routerLink]="['']">Stationery</a>
+          </li>
+        </ul>
+        <div
+          class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse"
+        >
+          <ul class="navbar-nav flex-grow">
+            <li class="nav-item" [routerLinkActive]="['link-active']">
+              <div class="search">
+                <input
+                  id="searchQuery"
+                  type="text"
+                  class="form-control"
+                  name="searchQuery"
+                  placeholder="Search"
+                />
+                <span class="search-icon"
+                  ><mat-icon [ngStyle]="{ color: 'whitesmoke' }"
+                    >search</mat-icon
+                  ></span
+                >
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
