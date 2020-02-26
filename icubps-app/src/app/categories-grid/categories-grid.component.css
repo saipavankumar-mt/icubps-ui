@@ -1,6 +1,20 @@
-.img-wrapper{
-    display: flex;
+.s-results-products {
+  position: relative;
+  z-index: -1;
+  background: white;
+  padding: 8px 32px;
 }
-mat-grid-tile {
-    background: lightblue;
-  }
+
+.s-products-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.categories-card {
+  width: 333px !important;
+  height: 400px;
+  margin: 20px;
+  box-sizing: border-box;
+}

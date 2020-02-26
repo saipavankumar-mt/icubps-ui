@@ -1,14 +1,14 @@
-<mat-grid-list cols="3" rowHeight="2:2" >
-    <mat-grid-tile *ngFor="let img of images; index as i">
-        <div class="carousel-caption">
-            <h3>My slide {{i + 1}} title</h3>
-          </div>
-          <a href="https://www.google.fr/?q=Number+{{i+1}}" target="_blank" rel="nofollow noopener noreferrer">
-            <div class="img-wrapper">
-              <img [src]="img" alt="My image {{i + 1}} description" [ngStyle]="{'width':'none'}">
-            </div>
-          </a>
-      </mat-grid-tile>
-  </mat-grid-list>
+<div class="s-results-products">
+  <ng-container>
+    <div class="s-products-container">
+      <app-card
+        class="categories-card"
+        *ngFor="let category of categories; let i = index"
+        [product]="category"    
+      ></app-card>
+    </div>
+  </ng-container>
+</div>
+
 
   

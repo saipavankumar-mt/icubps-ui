@@ -20,6 +20,7 @@ import { FormsModule } from '@angular/forms';
 import { UserLoginComponent } from './user-login/user-login.component';
 import { CategoriesGridComponent } from './categories-grid/categories-grid.component';
 import { CustomTshirtsComponent } from './custom-tshirts/custom-tshirts.component';
+import { CardComponent } from './utilities/card/card.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { CustomTshirtsComponent } from './custom-tshirts/custom-tshirts.componen
     HomeComponent,
     UserLoginComponent,
     CategoriesGridComponent,
-    CustomTshirtsComponent
+    CustomTshirtsComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,

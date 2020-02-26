@@ -1,0 +1,45 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;  
+  text-align: center;
+}
+
+.card-wrapper {
+  padding: 16px 0 0 0;
+}
+
+.image-wrapper{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.product-image {
+  height: 100%;  
+  display: flex;
+}
+
+.product-desc {
+  padding: 8px 8px 4px 12px;
+  background-color: #fff;
+}
+
+.description {
+  padding: 8px 0;
+  height: 82px;
+}
+
+.sub-title {
+  font-size: var(--fontSize18);
+  color: var(--primary);
+  -ms-grid-row-align: center;
+  align-self: center;
+  right: 0;
+}
+
+
+
