@@ -1,6 +1,6 @@
-import { BrowserModule } from "@angular/platform-browser";
+import { BrowserModule } from '@angular/platform-browser';
 
-import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import {MatIconModule} from '@angular/material/icon';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
@@ -18,6 +18,9 @@ import { CustomMaterialModule } from './core/material.module';
 import { FormsModule } from '@angular/forms';
 
 import { UserLoginComponent } from './user-login/user-login.component';
+import { CategoriesGridComponent } from './categories-grid/categories-grid.component';
+import { CustomTshirtsComponent } from './custom-tshirts/custom-tshirts.component';
+import { CardComponent } from './utilities/card/card.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,10 @@ import { UserLoginComponent } from './user-login/user-login.component';
     ContactUsComponent,
     CarouselPauseComponent,
     HomeComponent,
-    UserLoginComponent
+    UserLoginComponent,
+    CategoriesGridComponent,
+    CustomTshirtsComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,14 @@
+<div class="s-results-products">
+  <ng-container>
+    <div class="s-products-container">
+      <app-card
+        class="categories-card"
+        *ngFor="let category of categories; let i = index"
+        [product]="category"    
+      ></app-card>
+    </div>
+  </ng-container>
+</div>
+
+
+  
