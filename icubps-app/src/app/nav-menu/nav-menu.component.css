@@ -41,6 +41,7 @@ nav .navbar-nav li a {
 .container{
   padding-top: 10px;
   padding-bottom: 5px;
+  max-width: 90%;
 }
 
 .search{

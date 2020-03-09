@@ -1,0 +1,13 @@
+<div class="filters">
+    <ng-container>
+        <div class="lblHeader">
+            <label>Filters</label>
+        </div>
+      <div>
+        <app-filter
+          *ngFor="let item of filtersData.data; let i = index"
+          [filterData]="item"    
+        ></app-filter>
+      </div>
+    </ng-container>
+  </div>

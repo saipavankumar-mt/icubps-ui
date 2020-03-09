@@ -1,0 +1,10 @@
+.lblHeader{
+    width: 100%;
+    font-weight: bold;
+    border-bottom-style: ridge;
+}
+
+.filters{
+    width: 200px;
+    padding: 5px;   
+}

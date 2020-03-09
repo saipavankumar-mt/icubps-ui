@@ -1,0 +1,18 @@
+.filter{
+    width: 200px;
+    padding: 5px;
+    border-right-style: ridge;
+}
+
+.lblHeader{
+    font-weight: bold;
+    border-bottom-style: ridge;
+}
+
+.itemsdisplay{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    padding: 5px;
+}
+
