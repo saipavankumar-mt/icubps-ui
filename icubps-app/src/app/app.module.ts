@@ -15,12 +15,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CustomMaterialModule } from './core/material.module';
 
-import { FormsModule } from '@angular/forms';
+import { FormsModule , ReactiveFormsModule } from '@angular/forms';
+
 
 import { UserLoginComponent } from './user-login/user-login.component';
 import { CategoriesGridComponent } from './categories-grid/categories-grid.component';
 import { CustomTshirtsComponent } from './custom-tshirts/custom-tshirts.component';
 import { CardComponent } from './utilities/card/card.component';
+import { FiltersComponent } from './utilities/filters/filters.component';
+import { FilterComponent } from './utilities/filter/filter.component';
+
+
 
 @NgModule({
   declarations: [
@@ -32,7 +37,9 @@ import { CardComponent } from './utilities/card/card.component';
     UserLoginComponent,
     CategoriesGridComponent,
     CustomTshirtsComponent,
-    CardComponent
+    CardComponent,
+    FiltersComponent,
+    FilterComponent
   ],
   imports: [
     BrowserModule,
@@ -41,7 +48,8 @@ import { CardComponent } from './utilities/card/card.component';
     MatIconModule,
     NgbModule,
     CustomMaterialModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   exports: [MatIconModule],
   providers: [],
