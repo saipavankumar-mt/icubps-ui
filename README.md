@@ -1,2 +1,2 @@
 # icubps-ui
-Front end react
+Front end Angular
