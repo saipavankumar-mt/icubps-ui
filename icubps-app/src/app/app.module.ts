@@ -24,6 +24,7 @@ import { CustomTshirtsComponent } from './custom-tshirts/custom-tshirts.componen
 import { CardComponent } from './utilities/card/card.component';
 import { FiltersComponent } from './utilities/filters/filters.component';
 import { FilterComponent } from './utilities/filter/filter.component';
+import { CreateDesignComponent } from './create-design/create-design.component';
 
 
 
@@ -39,7 +40,8 @@ import { FilterComponent } from './utilities/filter/filter.component';
     CustomTshirtsComponent,
     CardComponent,
     FiltersComponent,
-    FilterComponent
+    FilterComponent,
+    CreateDesignComponent
   ],
   imports: [
     BrowserModule,

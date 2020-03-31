@@ -1,0 +1,29 @@
+.img-resolution {
+  width: 100%;
+}
+
+.img-div{
+  border-right-style: ridge;
+  border-top-style: ridge;
+  border-left-style: ridge;
+  border-bottom-style: ridge;  
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.dispay-icon-images{
+  display: flex;
+  flex-direction: column;
+  width: 5%;
+  justify-content: center;  
+}
+
+.custom-image-div{
+  width: 30%;
+}
+
+.custom-wrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
