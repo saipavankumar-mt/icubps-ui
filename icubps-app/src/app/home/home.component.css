@@ -1,5 +1,8 @@
-.carousel-panel{
+.free-space{
+    padding-left: 100px;
+}
+
+.home-dispay{
     display: flex;
-    justify-content: center;
-    width: 100%;
+    flex-direction: row;
 }

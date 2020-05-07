@@ -1,5 +1,6 @@
 export interface CategoryDataConfig {
     imgUrl: string;
     title: string;
-    subTitle: string;
+    subTitle?: string;
+    price?: string;
 }

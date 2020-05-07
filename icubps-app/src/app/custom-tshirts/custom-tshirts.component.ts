@@ -20,37 +20,37 @@ export class CustomTshirtsComponent implements OnInit {
       {
         imgUrl: 'assets/images/1.jpg',
         title: 'Blue full sleeve TShirt',
-        subTitle: 'RS 259/-'
+        price: '259.00'
       },
       {
         imgUrl: 'assets/images/2.jpg',
         title: 'White full sleeve Jacket',
-        subTitle: 'RS 259/-'
+        price: '259.00'
       },
       {
         imgUrl: 'assets/images/3.jpg',
         title: 'Blue half sleeve Tshirt',
-        subTitle: 'RS 159/-'
+        price: '159.00'
       },
       {
         imgUrl: 'assets/images/4.jpg',
         title: 'Blue half sleeve Tshirt',
-        subTitle: 'RS 159/-'
+        price: '159.00'
       },
       {
         imgUrl: 'assets/images/5.jpg',
         title: 'Orange half sleeve Tshirt',
-        subTitle: 'RS 159/-'
+        price: '159.00'
       },
       {
         imgUrl: 'assets/images/6.jpg',
         title: 'White half sleeve Tshirt',
-        subTitle: 'RS 100/-'
+        price: '100.00'
       },
       {
         imgUrl: 'assets/images/7.jpg',
         title: 'Light Green Half sleeve Tshirt',
-        subTitle: 'RS 159/-'
+        price: '100.00'
       }
     ];
   }

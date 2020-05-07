@@ -3,5 +3,6 @@ export interface CardConfig {
     imgUrl?: string;
     title?: string;
     subTitle?: string;
+    price?: string;
   };
 }

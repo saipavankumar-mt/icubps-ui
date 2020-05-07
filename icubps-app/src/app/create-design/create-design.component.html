@@ -1,7 +1,6 @@
-<div>
-    <h1>Create your design</h1>
+<div class="free-space">
+    
 </div>
-
 <div class="custom-wrapper">
         <div class="dispay-icon-images">
             <div class="img-div">
@@ -16,11 +15,71 @@
         </div>
         <div class="custom-image-div">
             <div>
-                
-            </div>
-            <div class="img-div">
-                <img class="img-resolution" src="assets/images/1.jpg" >
+                <img class="main-img-resolution" src="assets/images/1.jpg" >
             </div>
         </div>
+        <div>
+            <h5>Regalia Men's Regular Fit T-Shirt</h5>
+            <app-star-rating></app-star-rating>
+            <div class="flex-dispay">
+                <h6>Price: &nbsp; </h6>
+                <h4 style="color:'rgb(182,73,74)';">&#x20b9; 499.00</h4>                
+            </div>
+            <div>
+                (Free delivery on orders above &#x20b9; 499.00  )           
+            </div>
+            <div class="free-text-space">
+                <h5 style="color:'rgb(74,119,7)';">In Stock</h5>   
+            </div>            
+            <div>
+                <p style="color:'rgb(74,119,7)';">Delivery to 500054 - Hyderabad is currently available for this item. </p>              
+                <div class="flex-dispay">
+                    <mat-icon>edit_location</mat-icon>
+                    <a href="">Select delivery location</a>
+                </div>                
+            </div>
+            <div class="flex-dispay free-text-space">
+                <h6>Size: &nbsp; </h6>
+                <div class="row">
+                    <div class="col">
+                      <div ngbDropdown class="d-inline-block">
+                        <button class="btn btn-outline-primary" id="dropdownBasic1" ngbDropdownToggle>Select Size</button>
+                        <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                          <button ngbDropdownItem>S</button>
+                          <button ngbDropdownItem>M</button>
+                          <button ngbDropdownItem>L</button>
+                          <button ngbDropdownItem>XL</button>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-dispay free-text-space">
+                <h6>Color: &nbsp; </h6>
+                <div>Black</div>                
+            </div>
+            <div>
+                <h6>Details: &nbsp; </h6>
+                <ul>
+                    <li>Care Instructions: Machine wash cold</li>
+                    <li>Fit Type: regular fit</li>
+                    <li>100% Cotton</li>
+                    <li>Regular fit</li>
+                <ng-container *ngIf="showMore1">
+                        <li>Solid</li>
+                        <li>V-neck</li>
+                        <li>Full sleeve</li>
+                        <li>Authentic USPA logo contrast embroidery</li>
+                        <li>Regular comfort fit</li>
+                        <li>Machine wash cold</li>
+                </ng-container>
+            </ul>
+                <a (click)="showMore1= !showMore1">show {{showMore1 ?'less':'more' }}</a>                
+            </div>
+        </div>   
+        <div>
+            <app-mini-cart></app-mini-cart>
+        </div>            
 </div>
+
 
