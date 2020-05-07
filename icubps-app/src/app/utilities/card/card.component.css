@@ -11,6 +11,11 @@
   padding: 16px 0 0 0;
 }
 
+.img-resolution {
+  width: 100%;
+  height: 100%;
+}
+
 .image-wrapper{
     height: 200px;
     width: 300px;
@@ -39,6 +44,11 @@
   -ms-grid-row-align: center;
   align-self: center;
   right: 0;
+}
+
+.price-desc{
+  display: flex;
+  justify-content: center;
 }
 
 

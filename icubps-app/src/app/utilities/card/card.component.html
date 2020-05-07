@@ -5,22 +5,19 @@
         class="product-image"
         [defaultUrl]="'./assets/images/no-image-available.png'"
       >
-        <img src={{product.imgUrl}} >
+        <img class="img-resolution" src={{product.imgUrl}} >
         </div>
       </div>
       
       <div class="product-desc">        
         <div class="description">
-          <div class="sub-title">
-            <p>{{product.title}}</p>
+          <h6>{{product.title}}</h6>
+          <app-star-rating></app-star-rating>          
+          <div *ngIf="product.price" class="price-desc">
+            <p *ngIf="product.subTitle">{{product.subTitle}}: &nbsp;</p><h4 style="color:'rgb(182,73,74)';"> &#x20b9; {{product.price}}</h4>
           </div>
-          <div class="sub-title">
-            <p>{{product.subTitle}}</p>
-          </div>
+          
         </div> 
-      </div>
-      <div>
-        <button>Select</button>
       </div>
     </div>
   </div>

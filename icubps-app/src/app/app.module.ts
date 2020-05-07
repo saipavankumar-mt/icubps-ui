@@ -24,6 +24,9 @@ import { CustomTshirtsComponent } from './custom-tshirts/custom-tshirts.componen
 import { CardComponent } from './utilities/card/card.component';
 import { FiltersComponent } from './utilities/filters/filters.component';
 import { FilterComponent } from './utilities/filter/filter.component';
+import { CreateDesignComponent } from './create-design/create-design.component';
+import { StarRatingComponent } from './star-rating/star-rating.component';
+import { MiniCartComponent } from './mini-cart/mini-cart.component';
 
 
 
@@ -39,7 +42,10 @@ import { FilterComponent } from './utilities/filter/filter.component';
     CustomTshirtsComponent,
     CardComponent,
     FiltersComponent,
-    FilterComponent
+    FilterComponent,
+    CreateDesignComponent,
+    StarRatingComponent,
+    MiniCartComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,9 @@
+<div class="ratings">
+    <span *ngFor="let star-number of ratedStars; let i = index">
+    <mat-icon [ngStyle]="{'color':'#fec200'}">star</mat-icon>      
+    </span>
+    <span *ngFor="let star-number of unratedStars; let i = index">
+        <mat-icon [ngStyle]="{'color':'grey'}">star</mat-icon>      
+        </span>
+  </div>
+  
