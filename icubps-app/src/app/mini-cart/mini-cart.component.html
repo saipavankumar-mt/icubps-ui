@@ -19,13 +19,15 @@
         <div class="icon-cart">
             <mat-icon>add_shopping_cart</mat-icon>
         </div>        
-        <div class="btn-cart">Add to Cart</div>
+        <div class="btn-cart "><a class="btn-text">Add to Cart</a></div>
     </div>
     <div class="free-space-between"></div>
     <div class="btn-cart-wrapper">
         <div class="icon-cart">
             <mat-icon>shop</mat-icon>
         </div>        
-        <div class="btn-cart">Buy Now</div>
+        <div class="btn-cart" >
+            <a class="btn-text" [routerLink]="['/basket']">Buy Now</a>
+        </div>
     </div>
 </div>

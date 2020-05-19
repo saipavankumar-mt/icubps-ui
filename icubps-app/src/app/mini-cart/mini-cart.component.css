@@ -31,7 +31,7 @@
     border-width: 0px;
     height: 34px;
     width: 200px;
-    background-image: linear-gradient(rgb(247, 223, 165), rgb(240, 193, 75));
+    background-image: linear-gradient(rgb(55,117,123), rgb(97, 207, 218));
     background-position-x: initial;
     background-position-y: initial;
     background-size: initial;
@@ -54,4 +54,10 @@
 
  .free-space-between{
      padding-bottom: 25px;
+ }
+
+ .btn-text{
+     color: white;
+     font-size: 16px;
+    font-weight: 500;
  }

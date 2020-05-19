@@ -27,6 +27,7 @@ import { FilterComponent } from './utilities/filter/filter.component';
 import { CreateDesignComponent } from './create-design/create-design.component';
 import { StarRatingComponent } from './star-rating/star-rating.component';
 import { MiniCartComponent } from './mini-cart/mini-cart.component';
+import { BasketComponent } from './basket/basket.component';
 
 
 
@@ -45,7 +46,8 @@ import { MiniCartComponent } from './mini-cart/mini-cart.component';
     FilterComponent,
     CreateDesignComponent,
     StarRatingComponent,
-    MiniCartComponent
+    MiniCartComponent,
+    BasketComponent
   ],
   imports: [
     BrowserModule,
